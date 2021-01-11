@@ -1,0 +1,20 @@
+.wrapper {
+ width: 80% !important;
+}
+
+ul.menu {
+  padding-left: -1vw !important;
+  }
+
+@media screen and (max-width: 1025px) and (orientation: landscape) {
+  .wrapper {
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  ul.menu {
+    padding-left: 5vw !important;
+    padding-right: 5vw !important;
+  }
+}

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Adana";
+	src:
+		url("../fonts/adana_script.eot"), /* IE 9 Compatibility Mode */
+    	url("../fonts/adana_script.eot?#iefix") format("embedded-opentype"), /* IE < 9 */
+		url("../fonts/adana_script.woff2") format("woff2"), /* Super Modern Browsers */
+		url("../fonts/adana_script.woff") format("woff"), /* Firefox >= 3.6, any other modern browser */
+		url("../fonts/adana_script.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("../fonts/adana_script.svg#adana_script") format("svg"); /* Chrome < 4, Legacy iOS */
+		font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'merriweatheritalic';
+    src: url('../fonts/merriweather-italic-webfont.eot');
+    src: url('../fonts/merriweather-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/merriweather-italic-webfont.woff2') format('woff2'),
+         url('../fonts/merriweather-italic-webfont.woff') format('woff'),
+         url('../fonts/merriweather-italic-webfont.ttf') format('truetype'),
+         url('../fonts/merriweather-italic-webfont.svg#merriweatheritalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

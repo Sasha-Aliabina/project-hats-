@@ -1,0 +1,49 @@
+@import url(https://use.fontawesome.com/releases/v5.2.0/css/all.css);
+
+.social-block {
+    display: -ms-flexbox !important;
+    display: -webkit-box !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.social-block a {
+    color: #000000;
+    width: 41px;
+    height: 41px;
+    font-size: 40px;
+    overflow: hidden;
+    padding: 5px;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    margin: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+	-webkit-box-align: baseline;
+	    -ms-flex-align: baseline;
+	        align-items: baseline;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+}
+
+.vk a:hover {   color: #45668e; }
+
+.inst a:hover   {  color: #e4405f; }
+
+.wa a:hover {   color: #25D366; }
